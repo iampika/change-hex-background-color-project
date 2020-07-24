@@ -20,4 +20,20 @@
     'E',
     'F',
   ]
+
+  function changeHex() {
+    let hex = '#'
+
+    for (let i = 0; i < 6; i++) {
+      const index = parseInt(Math.random() * hexValues.length)
+      hex += hexValues[index]
+    }
+
+    h1.textContent = hex
+    body.style.backgroundColor = hex
+  }
+
+  button.addEventListener('click', changeHex)
+
+  changeHex()
 })()
