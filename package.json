@@ -2,6 +2,12 @@
   "name": "change-hex-background-color-project",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Mahendra Choudhary <jakepintu@gmail.com>",
-  "license": "MIT"
+  "author": "Mahendra Choudhary <pikaatic@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
